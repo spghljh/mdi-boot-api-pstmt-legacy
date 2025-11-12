@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:049edae1-ba06-4167-8800-88ee99a98626",
+  "serialNumber" : "urn:uuid:03aa76fd-630d-4d00-a59d-888751fa8ddf",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-11-11T10:42:30Z",
+    "timestamp" : "2025-11-12T05:07:13Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -48,11 +48,11 @@
     ],
     "component" : {
       "group" : "kr.co.mdi",
-      "name" : "mdi",
+      "name" : "mdi-boot-api-pstmt-legacy",
       "version" : "0.1",
       "description" : "mobile-device-info",
       "licenses" : [ ],
-      "purl" : "pkg:maven/kr.co.mdi/mdi@0.1?type=jar",
+      "purl" : "pkg:maven/kr.co.mdi/mdi-boot-api-pstmt-legacy@0.1?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -64,7 +64,7 @@
         }
       ],
       "type" : "application",
-      "bom-ref" : "pkg:maven/kr.co.mdi/mdi@0.1?type=jar"
+      "bom-ref" : "pkg:maven/kr.co.mdi/mdi-boot-api-pstmt-legacy@0.1?type=jar"
     }
   },
   "components" : [
@@ -6066,7 +6066,7 @@
   ],
   "dependencies" : [
     {
-      "ref" : "pkg:maven/kr.co.mdi/mdi@0.1?type=jar",
+      "ref" : "pkg:maven/kr.co.mdi/mdi-boot-api-pstmt-legacy@0.1?type=jar",
       "dependsOn" : [
         "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.5.5?type=jar",
         "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf@3.5.5?type=jar",
